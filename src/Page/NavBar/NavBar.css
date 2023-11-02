@@ -1,0 +1,37 @@
+#Navbar.bg-body-tertiary {
+  background-color: #232730 !important;
+  width: 100%;
+  z-index: 1;
+  padding: 14px 5px;
+}
+.bg-body-tertiary .navbar-toggler {
+  background-color: #fff;
+}
+.bg-body-tertiary .navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.bg-body-tertiary .navbar-brand span {
+  font-weight: lighter;
+}
+.bg-body-tertiary .nav-link {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+.bg-body-tertiary .form-control {
+  background-color: #fff;
+  border: solid 2px #fff;
+  box-shadow: none;
+  border-radius: 17px;
+  /* color: black !important; */
+  border: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+.bg-body-tertiary .fa-brands {
+  font-size: 38px;
+}

@@ -1,0 +1,33 @@
+section .text-center span {
+  color: #d2691e;
+}
+.imghvr-slide-up {
+  position: relative;
+  overflow: hidden;
+}
+.imghvr-slide-up img {
+  width: 100%;
+}
+figcaption {
+  position: absolute;
+  top: 100%;
+  background-color: rgb(0 0 0 / 47%);
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all 1s;
+}
+figure:hover > figcaption {
+  top: 0px;
+}
+figcaption .fab {
+  font-size: 30px;
+  padding: 0 5px;
+}
+figcaption .fab:hover {
+  color: #d2691e;
+}

@@ -1,0 +1,14 @@
+section {
+  margin: 50px 0px;
+}
+section .text-center span {
+  color: #d2691e;
+}
+section .card-our-news {
+  transition: all 1s;
+  border: none;
+}
+.card:hover {
+  transform: scale(0.9);
+  box-shadow: 3px 3px 30px gray;
+}

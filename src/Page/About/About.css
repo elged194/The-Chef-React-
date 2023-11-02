@@ -1,0 +1,19 @@
+.About-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.About-img img {
+  width: 100%;
+}
+/* ------------------ Responsive ----------------------- */
+@media only screen and (max-width: 425px) {
+  .About-img img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .About-img img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,75 @@
+.col-lg-4 {
+  padding: calc(var(--bs-gutter-x) * 0.5);
+}
+.Food-Menu .img-menu img {
+  width: 100%;
+}
+.Food-Menu .text-menu {
+  text-align: center;
+  height: 100%;
+  background-color: #fff;
+  color: #353c4e;
+  position: relative;
+  overflow: hidden;
+}
+.Food-Menu .text-menu .fa-solid {
+  font-size: 50px;
+  margin: 30px 0px;
+}
+
+.Food-Menu .text-menu img {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transition: all 1s;
+  opacity: 0.5;
+}
+.Food-Menu .text-menu:hover > img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: all 2s;
+}
+/* ------------------------- */
+.Food-Menu .Main-menu .magic-img {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.Food-Menu .Main-menu .magic {
+  height: 100%;
+  position: relative;
+}
+.Main-menu .magic-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgb(0 0 0 / 23%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #dfe0e2;
+}
+.Main-menu .magic-text span {
+  color: #d2691e;
+  font-size: 50px;
+  font-weight: 700;
+}
+.Main-menu .magic-text h1 {
+  font-weight: bold;
+}
+.Main-menu .card-title {
+  color: #d2691e;
+}
+.Main-menu .card {
+  margin: 5px 0px;
+  padding: 5px;
+  border: none;
+  transition: all 1s;
+}
+.Main-menu .card-img-top {
+  height: 65%;
+}
